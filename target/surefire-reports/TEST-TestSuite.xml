@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="5.503" tests="6" errors="0" skipped="4" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mgakkala\eclipse-workspace\inetBankingV1\target\test-classes;C:\Users\mgakkala\eclipse-workspace\inetBankingV1\target\classes;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\junit\junit\4.11\junit-4.11.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\bytedeco\javacpp\0.9\javacpp-0.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire7084525080248318727\surefirebooter3701962659941237044.jar C:\Windows\Temp\surefire7084525080248318727 2020-05-25T15-08-03_765-jvmRun1 surefire5274702163492688815tmp surefire_08776826135210134617tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mgakkala\eclipse-workspace\inetBankingV1\target\test-classes;C:\Users\mgakkala\eclipse-workspace\inetBankingV1\target\classes;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\junit\junit\4.11\junit-4.11.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\bytedeco\javacpp\0.9\javacpp-0.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/>
+    <property name="basedir" value="C:\Users\mgakkala\eclipse-workspace\inetBankingV1"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire7084525080248318727\surefirebooter3701962659941237044.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="user.name" value="HIBACL127073$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mgakkala\Desktop\DevOps\MavenLocalRepoCustom"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="user.dir" value="C:\Users\mgakkala\eclipse-workspace\inetBankingV1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.6.1/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Program Files\Java\jdk1.8.0_211/bin;C:\Python38\Scripts\;C:\Python38\;D:\AS\share;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Windows\CCM;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Users\mgakkala\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\mgakkala\AppData\Local\Programs\Python\Python36-32\;C:\Users\mgakkala\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\R\R-3.4.1\bin;C:\Rtools;C:\Python38\Scripts;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\gradle-6.3\bin;;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="setup" classname="com.inetBanking.TestCases.TC_Login_001" time="3.651">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HIBACL127073&apos;, ip: &apos;172.30.54.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00DBEB13+1501971]&#10;	Ordinal0 [0x00D3F6D1+980689]&#10;	Ordinal0 [0x00CC765F+489055]&#10;	Ordinal0 [0x00C5B7ED+47085]&#10;	Ordinal0 [0x00C79800+169984]&#10;	Ordinal0 [0x00C7942D+169005]&#10;	Ordinal0 [0x00C778EB+162027]&#10;	Ordinal0 [0x00C60AC7+68295]&#10;	Ordinal0 [0x00C61B40+72512]&#10;	Ordinal0 [0x00C61AD9+72409]&#10;	Ordinal0 [0x00D58F37+1085239]&#10;	GetHandleVerifier [0x00E5D7ED+503293]&#10;	GetHandleVerifier [0x00E5D580+502672]&#10;	GetHandleVerifier [0x00E646AC+531644]&#10;	GetHandleVerifier [0x00E5DFFA+505354]&#10;	Ordinal0 [0x00D50606+1050118]&#10;	Ordinal0 [0x00D5047F+1049727]&#10;	Ordinal0 [0x00D5AF9B+1093531]&#10;	Ordinal0 [0x00D5B103+1093891]&#10;	Ordinal0 [0x00D5A095+1089685]&#10;	BaseThreadInitThunk [0x76578494+36]&#10;	RtlAreBitsSet [0x777441C8+136]&#10;	RtlAreBitsSet [0x77744198+88]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL127073', ip: '172.30.54.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DBEB13+1501971]
+	Ordinal0 [0x00D3F6D1+980689]
+	Ordinal0 [0x00CC765F+489055]
+	Ordinal0 [0x00C5B7ED+47085]
+	Ordinal0 [0x00C79800+169984]
+	Ordinal0 [0x00C7942D+169005]
+	Ordinal0 [0x00C778EB+162027]
+	Ordinal0 [0x00C60AC7+68295]
+	Ordinal0 [0x00C61B40+72512]
+	Ordinal0 [0x00C61AD9+72409]
+	Ordinal0 [0x00D58F37+1085239]
+	GetHandleVerifier [0x00E5D7ED+503293]
+	GetHandleVerifier [0x00E5D580+502672]
+	GetHandleVerifier [0x00E646AC+531644]
+	GetHandleVerifier [0x00E5DFFA+505354]
+	Ordinal0 [0x00D50606+1050118]
+	Ordinal0 [0x00D5047F+1049727]
+	Ordinal0 [0x00D5AF9B+1093531]
+	Ordinal0 [0x00D5B103+1093891]
+	Ordinal0 [0x00D5A095+1089685]
+	BaseThreadInitThunk [0x76578494+36]
+	RtlAreBitsSet [0x777441C8+136]
+	RtlAreBitsSet [0x77744198+88]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 25146
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="com.inetBanking.TestCases.TC_Login_001" time="0">
+    <skipped message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HIBACL127073&apos;, ip: &apos;172.30.54.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00DBEB13+1501971]&#10;	Ordinal0 [0x00D3F6D1+980689]&#10;	Ordinal0 [0x00CC765F+489055]&#10;	Ordinal0 [0x00C5B7ED+47085]&#10;	Ordinal0 [0x00C79800+169984]&#10;	Ordinal0 [0x00C7942D+169005]&#10;	Ordinal0 [0x00C778EB+162027]&#10;	Ordinal0 [0x00C60AC7+68295]&#10;	Ordinal0 [0x00C61B40+72512]&#10;	Ordinal0 [0x00C61AD9+72409]&#10;	Ordinal0 [0x00D58F37+1085239]&#10;	GetHandleVerifier [0x00E5D7ED+503293]&#10;	GetHandleVerifier [0x00E5D580+502672]&#10;	GetHandleVerifier [0x00E646AC+531644]&#10;	GetHandleVerifier [0x00E5DFFA+505354]&#10;	Ordinal0 [0x00D50606+1050118]&#10;	Ordinal0 [0x00D5047F+1049727]&#10;	Ordinal0 [0x00D5AF9B+1093531]&#10;	Ordinal0 [0x00D5B103+1093891]&#10;	Ordinal0 [0x00D5A095+1089685]&#10;	BaseThreadInitThunk [0x76578494+36]&#10;	RtlAreBitsSet [0x777441C8+136]&#10;	RtlAreBitsSet [0x77744198+88]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.inetBanking.TestCases.TC_Login_001" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.inetBanking.TestCases.TC_AddCustomer_003" time="1.172">
+    <failure message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HIBACL127073&apos;, ip: &apos;172.30.54.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00DBEB13+1501971]&#10;	Ordinal0 [0x00D3F6D1+980689]&#10;	Ordinal0 [0x00CC765F+489055]&#10;	Ordinal0 [0x00C5B7ED+47085]&#10;	Ordinal0 [0x00C79800+169984]&#10;	Ordinal0 [0x00C7942D+169005]&#10;	Ordinal0 [0x00C778EB+162027]&#10;	Ordinal0 [0x00C60AC7+68295]&#10;	Ordinal0 [0x00C61B40+72512]&#10;	Ordinal0 [0x00C61AD9+72409]&#10;	Ordinal0 [0x00D58F37+1085239]&#10;	GetHandleVerifier [0x00E5D7ED+503293]&#10;	GetHandleVerifier [0x00E5D580+502672]&#10;	GetHandleVerifier [0x00E646AC+531644]&#10;	GetHandleVerifier [0x00E5DFFA+505354]&#10;	Ordinal0 [0x00D50606+1050118]&#10;	Ordinal0 [0x00D5047F+1049727]&#10;	Ordinal0 [0x00D5AF9B+1093531]&#10;	Ordinal0 [0x00D5B103+1093891]&#10;	Ordinal0 [0x00D5A095+1089685]&#10;	BaseThreadInitThunk [0x76578494+36]&#10;	RtlAreBitsSet [0x777441C8+136]&#10;	RtlAreBitsSet [0x77744198+88]&#10;" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL127073', ip: '172.30.54.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DBEB13+1501971]
+	Ordinal0 [0x00D3F6D1+980689]
+	Ordinal0 [0x00CC765F+489055]
+	Ordinal0 [0x00C5B7ED+47085]
+	Ordinal0 [0x00C79800+169984]
+	Ordinal0 [0x00C7942D+169005]
+	Ordinal0 [0x00C778EB+162027]
+	Ordinal0 [0x00C60AC7+68295]
+	Ordinal0 [0x00C61B40+72512]
+	Ordinal0 [0x00C61AD9+72409]
+	Ordinal0 [0x00D58F37+1085239]
+	GetHandleVerifier [0x00E5D7ED+503293]
+	GetHandleVerifier [0x00E5D580+502672]
+	GetHandleVerifier [0x00E646AC+531644]
+	GetHandleVerifier [0x00E5DFFA+505354]
+	Ordinal0 [0x00D50606+1050118]
+	Ordinal0 [0x00D5047F+1049727]
+	Ordinal0 [0x00D5AF9B+1093531]
+	Ordinal0 [0x00D5B103+1093891]
+	Ordinal0 [0x00D5A095+1089685]
+	BaseThreadInitThunk [0x76578494+36]
+	RtlAreBitsSet [0x777441C8+136]
+	RtlAreBitsSet [0x77744198+88]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 77.0.3865.40 (f484704e052e0b556f8030b65b953dce96503217-refs/branch-heads/3865@{#442}) on port 23533
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+]]></system-err>
+  </testcase>
+  <testcase name="addNewCustomer" classname="com.inetBanking.TestCases.TC_AddCustomer_003" time="0">
+    <skipped message="unknown error: cannot find Chrome binary&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HIBACL127073&apos;, ip: &apos;172.30.54.241&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x00DBEB13+1501971]&#10;	Ordinal0 [0x00D3F6D1+980689]&#10;	Ordinal0 [0x00CC765F+489055]&#10;	Ordinal0 [0x00C5B7ED+47085]&#10;	Ordinal0 [0x00C79800+169984]&#10;	Ordinal0 [0x00C7942D+169005]&#10;	Ordinal0 [0x00C778EB+162027]&#10;	Ordinal0 [0x00C60AC7+68295]&#10;	Ordinal0 [0x00C61B40+72512]&#10;	Ordinal0 [0x00C61AD9+72409]&#10;	Ordinal0 [0x00D58F37+1085239]&#10;	GetHandleVerifier [0x00E5D7ED+503293]&#10;	GetHandleVerifier [0x00E5D580+502672]&#10;	GetHandleVerifier [0x00E646AC+531644]&#10;	GetHandleVerifier [0x00E5DFFA+505354]&#10;	Ordinal0 [0x00D50606+1050118]&#10;	Ordinal0 [0x00D5047F+1049727]&#10;	Ordinal0 [0x00D5AF9B+1093531]&#10;	Ordinal0 [0x00D5B103+1093891]&#10;	Ordinal0 [0x00D5A095+1089685]&#10;	BaseThreadInitThunk [0x76578494+36]&#10;	RtlAreBitsSet [0x777441C8+136]&#10;	RtlAreBitsSet [0x77744198+88]&#10;"/>
+  </testcase>
+  <testcase name="tearDown" classname="com.inetBanking.TestCases.TC_AddCustomer_003" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

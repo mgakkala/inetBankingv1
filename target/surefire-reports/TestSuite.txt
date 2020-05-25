@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 5.503 s <<< FAILURE! - in TestSuite
+setup(com.inetBanking.TestCases.TC_Login_001)  Time elapsed: 3.651 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL127073', ip: '172.30.54.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DBEB13+1501971]
+	Ordinal0 [0x00D3F6D1+980689]
+	Ordinal0 [0x00CC765F+489055]
+	Ordinal0 [0x00C5B7ED+47085]
+	Ordinal0 [0x00C79800+169984]
+	Ordinal0 [0x00C7942D+169005]
+	Ordinal0 [0x00C778EB+162027]
+	Ordinal0 [0x00C60AC7+68295]
+	Ordinal0 [0x00C61B40+72512]
+	Ordinal0 [0x00C61AD9+72409]
+	Ordinal0 [0x00D58F37+1085239]
+	GetHandleVerifier [0x00E5D7ED+503293]
+	GetHandleVerifier [0x00E5D580+502672]
+	GetHandleVerifier [0x00E646AC+531644]
+	GetHandleVerifier [0x00E5DFFA+505354]
+	Ordinal0 [0x00D50606+1050118]
+	Ordinal0 [0x00D5047F+1049727]
+	Ordinal0 [0x00D5AF9B+1093531]
+	Ordinal0 [0x00D5B103+1093891]
+	Ordinal0 [0x00D5A095+1089685]
+	BaseThreadInitThunk [0x76578494+36]
+	RtlAreBitsSet [0x777441C8+136]
+	RtlAreBitsSet [0x77744198+88]
+
+
+setup(com.inetBanking.TestCases.TC_AddCustomer_003)  Time elapsed: 1.172 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HIBACL127073', ip: '172.30.54.241', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00DBEB13+1501971]
+	Ordinal0 [0x00D3F6D1+980689]
+	Ordinal0 [0x00CC765F+489055]
+	Ordinal0 [0x00C5B7ED+47085]
+	Ordinal0 [0x00C79800+169984]
+	Ordinal0 [0x00C7942D+169005]
+	Ordinal0 [0x00C778EB+162027]
+	Ordinal0 [0x00C60AC7+68295]
+	Ordinal0 [0x00C61B40+72512]
+	Ordinal0 [0x00C61AD9+72409]
+	Ordinal0 [0x00D58F37+1085239]
+	GetHandleVerifier [0x00E5D7ED+503293]
+	GetHandleVerifier [0x00E5D580+502672]
+	GetHandleVerifier [0x00E646AC+531644]
+	GetHandleVerifier [0x00E5DFFA+505354]
+	Ordinal0 [0x00D50606+1050118]
+	Ordinal0 [0x00D5047F+1049727]
+	Ordinal0 [0x00D5AF9B+1093531]
+	Ordinal0 [0x00D5B103+1093891]
+	Ordinal0 [0x00D5A095+1089685]
+	BaseThreadInitThunk [0x76578494+36]
+	RtlAreBitsSet [0x777441C8+136]
+	RtlAreBitsSet [0x77744198+88]
+
+
